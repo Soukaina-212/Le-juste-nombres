@@ -13,4 +13,10 @@ def jeu():
 
          if nombre > nombre_aléatoire :
              print('votre nombre est trop grand')
+        
+          if nombre < nombre_aléatoire :
+             print('votre nombre est trop petite')
+  
+         if nombre!= nombre_aléatoire:
+             print('vous avez perdu')
 
