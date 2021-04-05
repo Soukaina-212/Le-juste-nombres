@@ -20,3 +20,5 @@ def jeu():
          if nombre!= nombre_aléatoire:
              print('vous avez perdu')
 
+Jeu()
+
