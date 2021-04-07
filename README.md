@@ -5,8 +5,9 @@ nombre_aléatoire = random.randint(0,9)
 
 def jeu():
   
-  for i in range(5):
-       nombre = int('entrez votre nombre')
+  for i in range(4):
+  
+       nombre= int(input('entrez votre nombre')
      
          if nombre == nombre_aléatoire:
              print('vous avez gagné !')
@@ -17,8 +18,8 @@ def jeu():
           if nombre < nombre_aléatoire :
              print('votre nombre est trop petite')
   
-         if nombre!= nombre_aléatoire:
+         if nombre != nombre_aléatoire:
              print('vous avez perdu')
 
-Jeu()
+jeu()
 
